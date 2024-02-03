@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/shaheenislam/Desktop/Profit-Tracker-Shopify/env/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/shaheenislam/Desktop/Profit-Tracker-Shopify/env'
+export npm_config_prefix='/Users/shaheenislam/Desktop/Profit-Tracker-Shopify/env'
+exec 'env/bin/node' "$@"
